@@ -1,0 +1,94 @@
+#nav-bar {
+    background-image: url(books.png);
+}
+.navbar-brand img {
+    height: 100px;
+    padding-left: 40px;
+    
+
+}
+#nav-bar .navbar {
+    background-color: green;
+}
+
+
+#nav-bar li:hover .sub-menu {
+    display: block;
+    position: absolute;
+    background-color: white;
+}
+.sub-menu {
+    display: none;
+}
+.form_code i {
+    width: 18px;
+    border: 2px solid blue;
+    background-color: blue;
+    color:darkcyan;
+    
+}
+.Login { 
+    display: none;
+    
+}
+#nav-bar a:hover .Login {
+    position: absolute;
+    display: block;
+
+}
+ .fa-user-plus { 
+    padding-left: 0px;
+    padding-bottom: 7px;
+    font: 200px;
+}
+.form_code .post-code {
+    padding-left: 10;
+    border-color: lightcoral;
+    margin-left: 100px;
+}
+.Login h6 {
+    color: black;
+}
+#header {
+    background-image: url(books.jpg);
+    
+    
+}
+#header h1  {
+    color: white;
+    font-weight: 700;
+    font-size: 1cm;
+    
+    text-shadow: 8px 4px 3px red;
+                
+}
+#header p {
+    color: white;
+    font-weight: 700;
+    text-shadow:  0px 8px 13px blue;
+
+    
+}
+#store .card-body .fa {
+    color: red;
+}
+#machine .card-body .fa {
+    color: red;
+}
+#particular-books .card-body .fa {
+    color: red;
+}
+#particular-books .container h1 {
+   font-weight: 700;
+    font-size: 1cm;
+    
+    text-shadow:  0px 8px 13px blue; 
+}
+
+#machine .container h1 {
+    font-weight: 700;
+     font-size: 1cm;
+     
+     text-shadow: 8px 4px 3px red;
+ }
+ 
